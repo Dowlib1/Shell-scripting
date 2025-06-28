@@ -5,7 +5,7 @@ Run
 ```bash
 vim comment.ch
 ```
-  ![folder](Shell-scripting/Comments/comment.png)
+  ![folder](comment.png)
 
 ### Press i to enter edit mode and write comment starting with '#'
 ```
@@ -14,12 +14,12 @@ vim comment.ch
 echo "Hello, you are learning Bash Scripting on DAREY.IO!" # This is also a comment, following a command
 ```
 
-  ![folder](Shell-scripting/Comments/one-line.png)
+  ![folder](one-line.png)
 
 ### press esc and :wq to save and exit
 ### Execute the Bash file 
 
-  ![folder](Shell-scripting/Comments/run.png)
+  ![folder](run.png)
 ### Give execustion permission to the owner
 Run
 ```bash
@@ -27,7 +27,7 @@ chmod 741 comment.sh
 ```
 ### Execute the file again
 
-  ![folder](Shell-scripting/Comments/running.png)
+  ![folder](running.png)
 
 ### For multi-line Comment use '#' before comment on each and within line of comment. 
 Below
@@ -39,20 +39,20 @@ paste;
 # is prefixed with a # symbol.
 echo "Here is an actual code that gets executed"
 ```
-  ![For multi-line comments](Shell-scripting/Comments/multiline.png)
+  ![For multi-line comments](multiline.png)
 Press esc to exit insert mode and :wq to save and exit
 ###  Execute the file again
 
-  ![folder](Shell-scripting/Comments/multirunning.png)
+  ![folder](multirunning.png)
 ### To see all content in the file using cat;
 Run
 ```bash
 cat comment.sh
 ```
 
-  ![folder](Shell-scripting/Comments/catsh.png)
+  ![folder](catsh.png)
 
 LICENCE
-This project is opensource for education purposes, and is open to contributions and Shell-scripting/Comments/advice
+This project is opensource for education purposes, and is open to contributions and /advice
 
-![folder](Shell-scripting/Comments/foldersuccess.png)
+![folder](foldersuccess.png)
