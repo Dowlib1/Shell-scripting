@@ -1,58 +1,98 @@
-How to comment in Bash scripts
-### step1 create a new script or use an existing script vim text editor to edit the desired script
-Follow the following steps
-Run
-```bash
-vim comment.ch
-```
-  ![folder](comment.png)
+# How to Comment in Bash Scripts
 
-### Press i to enter edit mode and write comment starting with '#'
+This guide walks you through how to add comments in Bash scripts.
+
+---
+
+## 1. Create or Edit a Script
+
+You can create a new script or edit an existing one using the `vim` text editor.
+
+Run:
+```bash
+vim comment.sh
 ```
+![Script folder](comment.png)
+
+---
+
+## 2. Add a Comment
+
+Press `i` to enter insert mode. Add comments by starting a line with `#`.
+
+Example:
+```bash
 #!/bin/bash
 # This is a single-line comment in Bash
 echo "Hello, you are learning Bash Scripting on DAREY.IO!" # This is also a comment, following a command
 ```
+![Single-line comment](one-line.png)
 
-  ![folder](one-line.png)
+---
 
-### press esc and :wq to save and exit
-### Execute the Bash file 
+## 3. Save and Exit
 
-  ![folder](run.png)
-### Give execustion permission to the owner
-Run
+- Press `Esc` to exit insert mode.
+- Type `:wq` and press `Enter` to save and quit.
+
+---
+
+## 4. Give Execution Permission
+
+Run:
 ```bash
-chmod 741 comment.sh
+chmod 744 comment.sh
 ```
-### Execute the file again
 
-  ![folder](running.png)
+---
 
-### For multi-line Comment use '#' before comment on each and within line of comment. 
-Below
-### use vim to open and i to enter the insert mode again
-paste;
+## 5. Run the Script
+
+Execute the script:
+```bash
+./comment.sh
 ```
+![Script running](run.png)
+![Script running](running.png)
+
+---
+
+## 6. Add Multi-line Comments
+
+There is no special multi-line comment syntax in Bash. Prefix each line with `#`.
+
+To edit the script again:
+- Open with `vim comment.sh`
+- Press `i` to enter insert mode, then paste:
+```bash
 # This is another way to create
 # a multi-line comment. Each line
 # is prefixed with a # symbol.
 echo "Here is an actual code that gets executed"
 ```
-  ![For multi-line comments](multiline.png)
-Press esc to exit insert mode and :wq to save and exit
-###  Execute the file again
+![Multi-line comment](multiline.png)
 
-  ![folder](multirunning.png)
-### To see all content in the file using cat;
-Run
+- Press `Esc` and type `:wq` to save and exit.
+- Run the script again:
+  ```bash
+  ./comment.sh
+  ```
+![Multi-line running](multirunning.png)
+
+---
+
+## 7. View the Script Contents
+
+To see all contents of the file, use:
 ```bash
 cat comment.sh
 ```
+![Viewing script with cat](catsh.png)
 
-  ![folder](catsh.png)
+---
 
-LICENCE
-This project is opensource for education purposes, and is open to contributions and /advice
+## License
 
-![folder](foldersuccess.png)
+This project is open source for educational purposes and open to contributions and advice.
+
+![Folder success](foldersuccess.png)
