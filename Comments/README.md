@@ -37,39 +37,42 @@ echo "Hello, you are learning Bash Scripting on DAREY.IO!" # This is also a comm
 
 ---
 
-## 4. Give Execution Permission
 
-Run:
-```bash
-chmod 744 comment.sh
-```
 
 ---
 
-## 5. Run the Script
+## 4. Run the Script
 
 Execute the script:
 ```bash
 ./comment.sh
 ```
 ![Script running](run.png)
+execute the multi-line comment again. You will now see that only lines without a '#' hashtag will run as a script. Lines starting or intersected by '#' will be considered a comment.
+## Step 5. Give Execution Permission
+Access was denied becuase yuo need execution permission to get the execution permission run this commant and as seen in the screenshot
+Run:
+```bash
+chmod 744 comment.sh
+```
 ![Script running](running.png)
 
 ---
 
-## 6. Add Multi-line Comments
+## Step 6. How to Add Multi-line Comments
 
 There is no special multi-line comment syntax in Bash. Prefix each line with `#`.
 
 To edit the script again:
 - Open with `vim comment.sh`
-- Press `i` to enter insert mode, then paste:
+- Press `i to enter insert mode, then paste:
 ```bash
 # This is another way to create
 # a multi-line comment. Each line
 # is prefixed with a # symbol.
 echo "Here is an actual code that gets executed"
 ```
+For multi-line comment is shown in these screenshot
 ![Multi-line comment](multiline.png)
 
 - Press `Esc` and type `:wq` to save and exit.
