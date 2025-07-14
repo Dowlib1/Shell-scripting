@@ -51,7 +51,7 @@ sudo ./aws/install
 ```
 chmod +x create_s3_bucket.sh
 ```
-![Screenshot](upper5.png)
+![Screenshot](upper.png)
 
 #### Editing the Script
 #### Running the Script
