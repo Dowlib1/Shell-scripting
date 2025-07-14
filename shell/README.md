@@ -51,14 +51,14 @@ sudo ./aws/install
 ```
 chmod +x create_s3_bucket.sh
 ```
-![Screenshot](shell/upper.png)
+![Screenshot](shell/upper5.png)
 
 #### Editing the Script
 #### Running the Script
 ```bash
 vim create_s3_buckets.sh
 ```
-![Screenshot](shell/editing_script.png)
+![Screenshot](shell/upper4.png)
 
 ### input Script Code
 
@@ -113,4 +113,4 @@ create_s3_buckets
 
 ![Screenshot](shell/psg.png)
 
-# In this mini project, I learned how to automate the process of creating AWS S3 buckets for different departments within a company using a Bash script and the AWS CLI. By writing and executing the script, I improved my skills in Bash scripting, particularly in defining functions, working with arrays, and using for loops to efficiently handle multiple items. I also practiced using conditional statements to make the script smart enough to check if a bucket already exists before attempting to create it. Additionally, I gained hands-on experience managing file permissions, running scripts in the terminal, and troubleshooting potential errors. Documenting each step and capturing screenshots helped reinforce my understanding and gave me practical experience in technical documentation. Overall, this project boosted my confidence in shell scripting, AWS automation, and clear project reporting.
+## In this mini project, I learned how to automate the process of creating AWS S3 buckets for different departments within a company using a Bash script and the AWS CLI. By writing and executing the script, I improved my skills in Bash scripting, particularly in defining functions, working with arrays, and using for loops to efficiently handle multiple items. I also practiced using conditional statements to make the script smart enough to check if a bucket already exists before attempting to create it. Additionally, I gained hands-on experience managing file permissions, running scripts in the terminal, and troubleshooting potential errors. Documenting each step and capturing screenshots helped reinforce my understanding and gave me practical experience in technical documentation. Overall, this project boosted my confidence in shell scripting, AWS automation, and clear project reporting.
