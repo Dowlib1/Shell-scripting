@@ -19,20 +19,20 @@ It uses a for loop to iterate over each department, checks if the bucket exists 
 Error handling is implemented by checking the exit code `$?` after attempting bucket creation.
 
 ###connect to EC2 instace.
-![Screenshot](shell/upperssh.png)
+![Screenshot](upperssh.png)
 
 ### Install and configure aws cli
 ```
 sudo apt update
 sudo apt install awscli -y
 ```
-![Screenshot](shell/uppinstall.png)
+![Screenshot](uppinstall.png)
 
 ```
 sudo ./install -i /usr/local/aws -b /usr/local/bin/aws
 ```
 
-![Screenshot](shell/upperaws.png)
+![Screenshot](upperaws.png)
 ```
 cd ~
 rm -rf awscli-bundle
@@ -40,25 +40,25 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 unzip awscliv2.zip
 sudo ./aws/install
 ```
-![Screenshot](shell/uppercurl.png)
+![Screenshot](uppercurl.png)
 
-![Screenshot](shell/upperunzip.png)
+![Screenshot](upperunzip.png)
 ##configure aws credentials
 
-![Screenshot](shell/awsconfig.png)
+![Screenshot](awsconfig.png)
 
 #### Use vim to create a file and Grant execution permission
 ```
 chmod +x create_s3_bucket.sh
 ```
-![Screenshot](shell/upper5.png)
+![Screenshot](upper5.png)
 
 #### Editing the Script
 #### Running the Script
 ```bash
 vim create_s3_buckets.sh
 ```
-![Screenshot](shell/upper4.png)
+![Screenshot](upper4.png)
 
 ### input Script Code
 
@@ -100,17 +100,17 @@ create_s3_buckets() {
 create_s3_buckets
 
 ```
-![Screenshot](shell/upperscript.png)
+![Screenshot](upperscript.png)
 
 ### Script Execution
 #### Running the Script
 ```bash
 ./create_s3_buckets.sh
 ```
-![Screenshot](shell/upper4.png)
+![Screenshot](upper4.png)
 
 #### Verifying S3 Buckets on the aws console
 
-![Screenshot](shell/psg.png)
+![Screenshot](psg.png)
 
 ## In this mini project, I learned how to automate the process of creating AWS S3 buckets for different departments within a company using a Bash script and the AWS CLI. By writing and executing the script, I improved my skills in Bash scripting, particularly in defining functions, working with arrays, and using for loops to efficiently handle multiple items. I also practiced using conditional statements to make the script smart enough to check if a bucket already exists before attempting to create it. Additionally, I gained hands-on experience managing file permissions, running scripts in the terminal, and troubleshooting potential errors. Documenting each step and capturing screenshots helped reinforce my understanding and gave me practical experience in technical documentation. Overall, this project boosted my confidence in shell scripting, AWS automation, and clear project reporting.
